@@ -11,11 +11,11 @@ idade = date.today().year - ano
 print(f"O atleta tem {idade} anos!")
 if idade <= 9:
     print("Categoria: MIRIM")
-elif idade >= 10 and idade <= 14:
+elif idade <= 14:
     print("Categoria: INFANTIL")
-elif idade >= 15 and idade <= 19:
+elif idade <= 19:
     print("Categoria: JÚNIOR")
-elif idade >= 20 and idade <= 25:
+elif idade <= 25:
     print("Categoria: SÊNIOR")
 else:
     print("Categoria: MASTER")
