@@ -11,7 +11,7 @@ analise["total"] = sum(total_gols) # somar o total de gols
 print("=-"*15)
 print(analise)
 print("=-"*15)
-for k, v in analise.items(): # repetição para varrer o dicionário
+for k, v in analise.items(): # repetição para varrer o dicionáriodesafio
     print(f"No campo {k} tem {v}")
 print("=-"*15)
 print(f"O jogador {analise['jogador']} fez {len(analise['gols'])} partidas.")
