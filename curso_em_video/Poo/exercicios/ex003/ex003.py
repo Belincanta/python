@@ -23,7 +23,7 @@ class ContaBancaria:
             self.saldo -= valor
             print(f"- Saque de R${valor:.2f} autorizado na conta {self.id_conta}.")
         else:
-            print(f"x Saque de R${valor:.2f} não autorizado na conta {self.id_conta}, não possui saldo disponível.")
+            print(f"x' Saque de R${valor:.2f} não autorizado na conta {self.id_conta}, não possui saldo disponível.")
 
 #declaração do objeto
 c1 = ContaBancaria(id=115, nome="Alessandro", saldo=1500)
