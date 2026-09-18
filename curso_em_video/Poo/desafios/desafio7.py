@@ -80,8 +80,3 @@ while True:
         case "+":
             c.volume_mais()
     print(f"\n"*5)
-
-
-
-
-        
